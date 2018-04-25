@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+  background-color: /*#60a8e6*/#317bbb;
+  font-family: Lucida Console, Courier, monospace;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.app {
+  width: 60%;
+}
+
+.app * {
+  width: 100%;
+}
+
+.todoForm input {
+  font-size: 25px;
+  border: 2.3px #3388ec inset;
+  box-shadow: none;
+  padding: 4px;
+  border-radius: 15px;
+  outline: 0px;
+}
+
+.todoList > ul {
+  padding: 0px 20px;
+}
+
+.todoItem {
+  display: flex;
+  height: 70px;
+  padding: 10px;
+  background-color: #4abcff;
+  border-radius: 7px;
+  margin: 20px auto;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.todoItem * {
+  justify-content: center;
+}
+
+.taskButton {
+  display: inherit;
+  padding: 0px;
+  -webkit-appearance: none;
+  flex: 0 0 50px;
+  margin: 0px;
+  border: black 1px outset;
+  border-radius: 100px;
+  background-color: #fff;
+}
+
+.taskButton:focus/*, .taskButton:hover*/ {
+  outline: none;
+  box-shadow: 1px 1px 10px 1px #282f63;
+}
+
+.taskButton:checked {
+  background-color: #0d32a5;
+}
+
+.taskName {
+  flex: 1 1 80%;
+  margin-left: 20px;
+  flex-direction: row;
+  text-align: left;
+  font-size: 20px;
+}
+
+div.todoList li {
+  list-style: none;
+}
