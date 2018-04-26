@@ -52,7 +52,7 @@ html {
 .taskButton {
   display: inherit;
   padding: 0px;
-  -webkit-appearance: none;
+  appearance: none;
   flex: 0 0 50px;
   margin: 0px;
   border: black 1px outset;
@@ -62,7 +62,7 @@ html {
 
 .taskButton:focus/*, .taskButton:hover*/ {
   outline: none;
-  box-shadow: 1px 1px 10px 1px #282f63;
+  box-shadow: 1px 1px 10px 1px #282f63b3;
 }
 
 .taskButton:checked {
